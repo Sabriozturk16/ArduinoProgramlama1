@@ -325,7 +325,7 @@ Tek bir server üzerinden bir çok MAC DATLOG ETHERNET' i izleyebilirsiniz. Topl
 
                 <div class="blockcontent">
                     <div class="blockcontent-body">
-                        <!-- block-content -->
+                        <!-- sejesjesesjesjsejesjesj -->
 
                         <!-- block-content -->
                         <img src="images/footer-logo.png" alt="kozuka"/><br/>
