@@ -1,0 +1,608 @@
+﻿/*----------------------------------------------------------------------*/
+/* Reset
+/*----------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe, input, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: 100;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/*----------------------------------------------------------------------*/
+/* Font Declaration
+/*----------------------------------------------------------------------*/
+
+html, textarea, input, input[type=submit], button, a.btn, span, div.alert p, header {
+    font-family: 'PT Sans', sans-serif;
+}
+
+code, pre {
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+/*----------------------------------------------------------------------*/
+/* General Section
+/*----------------------------------------------------------------------*/
+
+html, body, textarea, input {
+    font-size: 101%;
+    font-size: 12px;
+    -webkit-text-size-adjust: none;
+    color: #6f6f6f;
+}
+
+html {
+    background-attachment: fixed;
+    overflow-y: scroll;
+    background-color: #ffffff;
+    background-image: url(Img/paper_02.png);
+}
+
+/*----------------------------------------------------------------------*/
+/* Header
+/*----------------------------------------------------------------------*/
+
+
+header {
+    position: relative;
+    border-top: 1px solid;
+    z-index: 10;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px;
+    -webkit-box-shadow: 3px 0 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 3px 0 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 0 4px rgba(0, 0, 0, 0.1);
+    border-top-color: #d7d7d7;
+    background: #f6f6f6;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#f1f1f1');
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#f1f1f1));
+    background: -moz-linear-gradient(top, #f6f6f6, #f1f1f1);
+    background: -o-linear-gradient(top, #f6f6f6, #f1f1f1);
+}
+
+#logo {
+    height: 24px;
+    padding: 18px 0 18px 15px;
+    width: 224px;
+    border: 0;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    background: url(Img/logo.png) left center no-repeat;
+}
+
+    #logo, #logo a {
+        font-weight: 700;
+        font-size: 20px;
+        text-decoration: none;
+        text-indent: -99999px;
+        text-shadow: 0 -1px 0 #999999;
+        color: #ffffff;
+    }
+
+/*----------------------------------------------------------------------*/
+/* Content
+/*----------------------------------------------------------------------*/
+
+
+#content {
+    border: 0;
+    padding: 15px 5px 15px 230px;
+    margin: 0;
+    min-height: 600px;
+    border: 1px solid;
+    overflow: visible;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-right-radius: 4px;
+    -webkit-box-shadow: 3px 0 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 3px 0 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 0 4px rgba(0, 0, 0, 0.1);
+    background-color: #eeeeee;
+    background-image: url(Img/paper_01.png);
+    border-color: #ededed;
+    border-color-top: #ededed;
+}
+
+.bgsample {
+    border: 1px solid;
+    float: left;
+    margin: 8px;
+    padding: 27px 30px;
+    border-color: #999999;
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+}
+
+/*----------------------------------------------------------------------*/
+/* Buttons
+/*----------------------------------------------------------------------*/
+
+
+button, a.btn,
+.dataTables_paginate span.paginate_button,
+.dataTables_paginate span.paginate_active {
+    border: 1px solid;
+    position: relative;
+    padding: 9px 12px;
+    display: inline-block;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 4px 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+    outline: 0 none;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2px;
+    min-height: 22px;
+    min-width: 8px;
+    white-space: pre-line;
+    vertical-align: baseline;
+    border-color: #c7c7c7 #b2b2b2 #b2b2b2 #c7c7c7;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.7);
+    color: #555555;
+    background-color: #e6e6e6;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), inset 0 2px 5px rgba(255, 255, 255, 0.5), inset 0 -2px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), inset 0 2px 5px rgba(255, 255, 255, 0.5), inset 0 -2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), inset 0 2px 5px rgba(255, 255, 255, 0.5), inset 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    button:hover, a.btn:hover,
+    .dataTables_paginate span.paginate_active:hover {
+        background-color: #f1f1f1;
+    }
+/*----------------------------------------------------------------------*/
+/* Form Elements
+/*----------------------------------------------------------------------*/
+
+fieldset {
+    padding: 15px;
+}
+
+input, textarea {
+    width: 99%;
+    border: 1px solid;
+    padding: 4px 2px;
+    margin: 0 1px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border-color: #bbbbbb;
+}
+
+    input.placeholder, textarea.placeholder {
+        font-style: italic;
+        color: #cccccc;
+    }
+
+    input, textarea, input:invalid, input:required, textarea:required {
+        -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+        input:hover, input:focus, textarea:hover, textarea:focus {
+            -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.2);
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.2);
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+        }
+
+select optgroup, select option {
+    font-style: normal;
+    border: 0;
+}
+
+select option {
+    border: 1px solid;
+    padding: 3px;
+}
+
+input[type=submit], input[type=checkbox], input[type=radio], input[type=button], button {
+    width: auto !important;
+}
+
+input[type=submit] {
+    min-height: 33px;
+}
+
+form {
+    border: 1px solid;
+    padding: 4px;
+    margin-bottom: 18px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-color: #cccccc #e7e7e7 #ffffff #e7e7e7;
+    background-image: url(Img/paper_02.png);
+}
+
+    form:last-child {
+        margin-bottom: 0;
+    }
+
+.widget form {
+    border: 0;
+}
+
+form .wl_formstatus {
+    padding-left: 18px;
+}
+
+form fieldset {
+    padding: 0;
+    margin: 4px;
+    margin-top: 18px;
+}
+
+    form fieldset:first-child {
+        margin-top: 4px;
+    }
+
+form input, form textarea {
+    padding: 6px 2px;
+    font-size: 13px;
+}
+
+form fieldset > section {
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+    form fieldset > section > div {
+        padding: 15px 1%;
+        width: 78%;
+        float: right;
+        border-left: 1px solid;
+        height: 100%;
+        min-height: 100%;
+    }
+
+        form fieldset > section > div > div {
+            float: none;
+            clear: both;
+            width: auto;
+        }
+
+        form fieldset > section > div div.date {
+            max-width: 230px;
+        }
+
+    form fieldset > section.error > label {
+        text-shadow: none;
+        font-weight: 700;
+    }
+
+    form fieldset > section > div span {
+        font-size: 11px;
+    }
+
+    form fieldset > section.error {
+        border-bottom: 1px solid;
+    }
+
+        form fieldset > section.error > label {
+            text-shadow: none;
+            font-weight: 700;
+        }
+
+    form fieldset > section label {
+        border: 0;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 100;
+        float: left;
+        background: none;
+        filter: none;
+        margin: 0;
+        width: 16%;
+        padding-left: 2px;
+        margin-left: 8px;
+        text-align: left;
+    }
+
+    form fieldset > section > div > div.checker, form fieldset > section > div > div.radio {
+        display: inline;
+        margin: 0;
+        clear: both;
+        float: none;
+    }
+
+        form fieldset > section > div > div.checker span, form fieldset > section > div > div.radio span {
+            display: inline;
+            padding: 4px 10px 4px 0;
+            clear: both;
+            float: none;
+        }
+
+    form fieldset > section > div label {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        padding-top: 3px;
+        display: inline;
+        float: none;
+        font-size: 11px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+
+input[type=password], input.password {
+    width: 150px;
+}
+
+/*----------------------------------------------------------------------*/
+/* Clear Floats
+/*----------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+
+/*----------------------------------------------------------------------*/
+/* Login
+/*----------------------------------------------------------------------*/
+
+body#login {
+    position: static;
+    left: auto;
+    right: auto;
+    width: 350px;
+    margin: 120px auto;
+    padding: 2%;
+}
+
+    body#login #content {
+        min-height: 50px;
+        padding: 8px;
+    }
+
+    body#login form label {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    body#login form section {
+        width: 100%;
+    }
+
+        body#login form section div {
+            width: 90%;
+            float: none;
+            padding: 2px 5px 16px;
+            border: 0;
+        }
+
+        body#login form section > div {
+            width: 90% !important;
+        }
+
+        body#login form section div input {
+            width: 100% !important;
+        }
+
+            body#login form section div input#remember {
+                width: auto !important;
+            }
+
+        body#login form section div.checker {
+            width: auto !important;
+            padding: 0;
+            margin: 0;
+        }
+
+        body#login form section label {
+            padding: 3% 2% 1%;
+            width: 90% !important;
+            float: none;
+        }
+
+            body#login form section label.checkbox div {
+                width: 10px;
+                padding: 0;
+                margin: 0;
+            }
+
+        body#login form section a {
+            float: right;
+        }
+
+.message {
+    border-top: 1px solid #fff !important;
+    border-top: 1px solid rgba(255,255,255,0.9) !important;
+    border-left: 1px solid #fff !important;
+    border-left: 1px solid rgba(100,100,100,0.1) !important;
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    -moz-box-shadow: 1px 1px 0 #999;
+    -webkit-box-shadow: 1px 1px 0 #999;
+    box-shadow: 1px 1px 0 #999;
+    position: relative;
+}
+
+    .message h3 {
+        margin-top: 0;
+        padding: 0 !important;
+        border: none !important;
+    }
+
+    .message p {
+        margin-bottom: 0;
+    }
+
+    .message.info {
+        border: 1px solid #cadcea;
+        background: #e1f2fc;
+        background: -webkit-gradient(linear, left top, left bottom, from(#e1f2fc), to(#cae9fd));
+        background: -moz-linear-gradient(top, #e1f2fc, #cae9fd);
+        -pie-background: linear-gradient(top, #e1f2fc, #cae9fd);
+        color: #225b86;
+        text-shadow: 0 1px 0 #fff;
+    }
+
+        .message.info h3 {
+            color: #225b86;
+            text-shadow: 0 1px 0 #fff;
+        }
+
+    .message.error {
+        border: 1px solid #eeb7ba;
+        background: #fae2e2;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fae2e2), to(#f2cacb));
+        background: -moz-linear-gradient(top, #fae2e2, #f2cacb);
+        -pie-background: linear-gradient(top, #fae2e2, #f2cacb);
+        color: #be4741;
+        text-shadow: 0 1px 0 #fff;
+    }
+
+        .message.error h3 {
+            color: #be4741;
+            text-shadow: 0 1px 0 #fff;
+        }
+
+    .message.success {
+        border: 1px solid #b8c97b;
+        background: #e5edc4;
+        background: -webkit-gradient(linear, left top, left bottom, from(#e5edc4), to(#ccdd99));
+        background: -moz-linear-gradient(top, #e5edc4, #d9e4ac);
+        -pie-background: linear-gradient(top, #e5edc4, #d9e4ac);
+        color: #3f7227;
+        text-shadow: 0 1px 0 #fff;
+    }
+
+        .message.success h3 {
+            color: #3f7227;
+            text-shadow: 0 1px 0 #fff;
+        }
+
+    .message.warning, .message.notice {
+        border: 1px solid #e5dbaa;
+        background: #ffffc0;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ffffc0), to(#f9ee9c));
+        background: -moz-linear-gradient(top, #ffffc0, #f9ee9c);
+        -pie-background: linear-gradient(top, #ffffc0, #f9ee9c);
+        color: #6d7829;
+        text-shadow: 0 1px 0 #fff;
+    }
+
+        .message.warning h3 {
+            color: #6d7829;
+            text-shadow: 0 1px 0 #fff;
+        }
+
+    .message .message-close {
+        cursor: pointer;
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        zoom: 1;
+    }
+
+    .message:hover .message-close {
+        background: transparent url(Img/close-icon.png) no-repeat 0 0;
+    }
+
+.message_text {
+    margin-left: 40px;
+}
+
+.warning .message_image {
+    background: url(Img/m_warning.html) no-repeat;
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+.success .message_image {
+    background: url(Img/m_success.html) no-repeat;
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+
+.info .message_image {
+    background: url(Img/m_info.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+
+.error .message_image {
+    background: url(Img/m_error.html) no-repeat;
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+Window size: 683 x 728 Viewport size: 667 x 615
