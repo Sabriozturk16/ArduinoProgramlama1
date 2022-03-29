@@ -52,7 +52,7 @@
 
 
 <!-- bsl .popup -->
-<link href="js/popup/general.css" rel="stylesheet" type="text/css">
+<link href="js/popup/general.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="js/popup/popup.js"></script>
 <script>
     $(document).ready(function () {
@@ -434,7 +434,7 @@ Telemetri sunucusunda periyodik bakım yapılmıştır.  <br />
                         <!-- block-content -->
                         <img src="images/footer-logo.png" alt="kozuka"/><br/>
                         <p>
-                            <span>19 Mayıs Mah.</span><br/>
+                            <span>kötekli</span><br/>
                             <span>Tutku Cad. No: 10</span><br/>
                             <span>Nilüfer / BURSA</span><br/>
                             <span><a href="#">info@sensorium.com.tr</a></span><br/>
