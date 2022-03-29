@@ -83,7 +83,6 @@
     <Content Include="siparisformu.aspx" />
     <Content Include="talepformu.aspx" />
     <Content Include="teknikbilgi.aspx" />
-    <Content Include="sensorium.ico" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
