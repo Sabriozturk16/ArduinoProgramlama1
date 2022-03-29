@@ -2,7 +2,7 @@
 
 namespace siniflarim
 {
-    public class Class1
+    public class Siniflarim1
     {
         //aawgwawahwahwahwahw
     }
