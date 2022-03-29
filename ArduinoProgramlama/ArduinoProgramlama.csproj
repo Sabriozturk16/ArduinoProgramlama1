@@ -67,9 +67,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.aspx" />
+    <Content Include="Temp\demo-talep-formu.html" />
+    <Content Include="Temp\gizlilik.html" />
+    <Content Include="Temp\iletisim-duyurular.html" />
+    <Content Include="Temp\iletisim-ik-formu.html" />
+    <Content Include="Temp\iletisim-iletisim-bilgileri.html" />
+    <Content Include="Temp\iletisim-iletisim-formu.html" />
+    <Content Include="Temp\iletisim-siparis-formu.html" />
+    <Content Include="Temp\index-2.html" />
+    <Content Include="Temp\index.html" />
+    <Content Include="Temp\kurumsal-belgeler.html" />
+    <Content Include="Temp\kurumsal-hakkimizda.html" />
+    <Content Include="Temp\kurumsal-kariyer.html" />
+    <Content Include="Temp\kurumsal-kurumsal-kimlik.html" />
+    <Content Include="Temp\neden-sensorium.html" />
+    <Content Include="Temp\sensorium-download.html" />
+    <Content Include="Temp\sensorium-genel-ozellikleri.html" />
+    <Content Include="Temp\sensorium-kullanim-alanlari.html" />
+    <Content Include="Temp\sensorium-kurulum-klavuzu.html" />
+    <Content Include="Temp\sensorium-referanslar.html" />
+    <Content Include="Temp\sensorium-sensorium-nedir.html" />
+    <Content Include="Temp\sensorium-teknik-ozellikler.html" />
+    <Content Include="Temp\sensorium.ico" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
